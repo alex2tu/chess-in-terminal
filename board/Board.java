@@ -1012,8 +1012,8 @@ public class Board {
     }
 
     public boolean returnTurn() {
-        System.out.println("tN = " + turnNumber); //testing
-        System.out.println("eP = " + enPassant); //testing
+//        System.out.println("tN = " + turnNumber); //testing
+//        System.out.println("eP = " + enPassant); //testing
         if(turnNumber % 2 == 0) {
             return true; //white turn
         }

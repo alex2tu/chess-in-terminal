@@ -10,7 +10,7 @@ import board.Board.Pawn;
 
 public class Chess {
 
-    public static Board board = new Board("rnbq1bnr/pppppppp/8/8/8/8/PPPPP1kP/RNBQK2R w KQ - 0 1");
+    public static Board board = new Board("rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1");
     //Standard FEN: "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
     //Stalemate FEN: "8/8/8/8/3q4/4k3/8/4K3 b - - 0 1"
     //Castling Test FEN: "r3k2r/pppppppp/8/8/8/8/PPPPPPPP/R3K2R w KQkq - 0 1"
